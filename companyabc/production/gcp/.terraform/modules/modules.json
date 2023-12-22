@@ -1,1 +1,0 @@
-{"Modules":[{"Key":"","Source":"","Dir":"."},{"Key":"eks","Source":"../../../modules/gke","Dir":"../../../modules/gke"},{"Key":"gke","Source":"../../../modules/gke","Dir":"../../../modules/gke"},{"Key":"vpc","Source":"../../../modules/vpcnetwork","Dir":"../../../modules/vpcnetwork"},{"Key":"vpcnetwork","Source":"../../../modules/vpcnetwork","Dir":"../../../modules/vpcnetwork"}]}
