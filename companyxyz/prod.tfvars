@@ -1,0 +1,8 @@
+project_id="uae-xyz"
+network_name="xyzdevvpc"
+machine_type="e2-standard-4"
+location="asia-south1"
+node_disk_size="40"
+cluster_name="dev-gke-cluster"
+subnetwork="10.172.0.0/16"
+zone="asia-south1-a"

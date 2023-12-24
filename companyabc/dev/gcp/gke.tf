@@ -11,6 +11,7 @@ module "gke" {
   zone           = var.zone
   sa             = var.sa
 
+
   depends_on = [module.vpcnetwork]
 
 }

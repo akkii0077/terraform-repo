@@ -52,7 +52,7 @@ resource "google_container_node_pool" "general" {
     }
     machine_type = var.machine_type
     disk_size_gb = var.node_disk_size
-    service_account = "uaedataloop@uaedataloop.iam.gserviceaccount.com"
+    service_account = "${var.sa}@${var.project_id}.iam.gserviceaccount.com"
     oauth_scopes = [
       "https://www.googleapis.com/auth/cloud-platform"
     ]

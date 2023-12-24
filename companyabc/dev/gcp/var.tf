@@ -56,3 +56,4 @@ variable "sa" {
   type    = string
   default = "uaedataloop"
 }
+

@@ -1,5 +1,5 @@
 module "gke" {
-  source = "../../../modules/gke"
+  source = "../modules/gke"
 
   project_id     = var.project_id
   machine_type   = var.machine_type
@@ -10,6 +10,7 @@ module "gke" {
   subnetwork     = var.subnetwork
   zone           = var.zone
   sa             = var.sa
+
 
   depends_on = [module.vpcnetwork]
 

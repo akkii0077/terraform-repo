@@ -14,3 +14,5 @@ variable "network" {}
 variable "subnetwork" {}
 
 variable "zone" {}
+
+variable "sa" {}

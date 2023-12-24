@@ -54,5 +54,6 @@ variable "zone" {
 
 variable "sa" {
   type    = string
-  default = "uaedataloop"
+  default = ""
 }
+
